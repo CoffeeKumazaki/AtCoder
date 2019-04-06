@@ -30,6 +30,6 @@ int main () {
         time += (i==4) ? a[idx] : (a[idx]%10==0) ? a[idx] : (a[idx]/10+1)*10;
         // cout << i << " " << idx << " " <<time << endl;
     }
-
-    return time;
+    cout << time << endl;
+    return 0;
 }
