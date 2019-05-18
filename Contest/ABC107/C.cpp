@@ -13,14 +13,11 @@ int main(int argc, const char * argv[]) {
     int n, k;
     cin >> n >> k;
     vector<int> h(n);
-    bool z=false;
     for (int i = 0; i < n; i++)
     {
         cin >> h[i];
-        if (h[i]==0) z = true;
     }
 
-    // if (z) k--; 
 
     int m=1000000000;
     for (int i = 0; i < n-k+1; i++)
