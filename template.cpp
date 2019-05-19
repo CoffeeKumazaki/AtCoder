@@ -6,6 +6,7 @@
 #include <functional>
 #include <cmath>
 #include <string>
+#include <map>
 
 using namespace std;
 int main(int argc, const char * argv[]) {
