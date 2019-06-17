@@ -10,21 +10,17 @@
 using namespace std;
 int main(int argc, const char * argv[]) {
     
-    int n, k;
+    long n, k;
     cin >> n >> k;
-    int ans=0;
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; j <= n; j++)
-        {
-            for (int l = 1; l <= n; l++)
-            {
-                if( (i+j)%k == 0 && (j+l)%k == 0 && (l+i)%k == 0 ) ans++;
-            }
-        }
-    }
-    
-    cout << ans << endl;
+    long ans1=n/k, ans2=(n-k/2)/k+1;
+
+   if (k % 2 == 0 && n >= k / 2) {
+        cout << ans1*ans1*ans1 + ans2*ans2*ans2 << endl;
+   }
+   else {
+        cout << ans1*ans1*ans1 << endl;
+   }
+
 
     return 0;
 }
