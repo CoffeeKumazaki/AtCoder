@@ -13,3 +13,4 @@ cp ${template} ${dir}/C.cpp
 cp ${template} ${dir}/D.cpp
 cp ${template} ${dir}/E.cpp
 cp ${template} ${dir}/F.cpp
+touch ${dir}/in
