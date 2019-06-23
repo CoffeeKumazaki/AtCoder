@@ -9,6 +9,8 @@
 #include <map>
 #include <queue>
 #include <stack>
+#define FOR(arg, ini, end) for(int arg = ini; arg < end; arg++)
+
 
 using namespace std;
 int main(int argc, const char * argv[]) {
